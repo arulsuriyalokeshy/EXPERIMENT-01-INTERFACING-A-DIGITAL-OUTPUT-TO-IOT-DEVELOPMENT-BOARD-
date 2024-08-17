@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 17/08/2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: SURIYA PRAKASH.S
+###  ROLL NO :212223100055
+###  DEPARTMENT: CYBER SECURITY
 
 
 
@@ -87,11 +87,19 @@ The main features of LPC2148 include the following.
 
 ## STM 32 CUBE PROGRAM :
 
-
-
-
+  
+  while (1)
+  ```{
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	  HAL_Delay(1000);
+  }
+ ``
 
 ## OUTPUT  :
+![EX 01](https://github.com/user-attachments/assets/bffff7ca-66d0-4599-b6a7-38576d5fad1e)
+
  
  
  
